@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Wiki Viewer</title>
+  <!-- bootstrap css stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- custom css stylesheet -->
+  <link rel="stylesheet" href="wiki.css">
+  <!-- jquery and bootstrap cdn js file -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<div class= "container">
+  <div class="heading">
+    <h1>Ask Frasier</h1>
+    <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+      <img src="http://images.mentalfloss.com/sites/default/files/styles/mf_image_16x9/public/GettyImages-1309914_0.jpg?itok=6HHy6vtL&resize=1100x619" alt="fraiser at a microphone">
+    </a>
+    <br/>
+    <br/>
+    <div class="row">
+        <p>Hey Frasier, what's</p>
+        <input class="form-control" id="searchTerm">
+        <button id="search" class="btn btn-primary">?</button>
+    </div>
+  </div>
+
+  <ul id="output">
+
+  </ul>
+
+
+</div>
+<script src="wiki.js"></script>
+</body>
+</html>
